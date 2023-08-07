@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul li a {
+    font-size: 23px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(26, 25, 25);
+    margin-top: -3;
+    right: 45px;
+
+
+}
+
+ul li a:hover {
+    color: rgb(143, 104, 52);
+    text-decoration: underline;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    margin: 0px 0px;
+    /* background-color: rgb(255, 245, 245); */
+    height: 14px;
+    align-items: center;
+
+}
+
+ul {
+    margin-top: -4px;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 60px;
+}
+
+.logo {
+    position: fixed;
+    height: 39px;
+    top: 9px;
+    left: 119px;
+    /* size: 2px; */
+}
+
+h1 {
+    text-align: left;
+    font-style: oblique;
+}
+
+.mid {
+    margin-top: 190px;
+    margin-left: 387px;
+    text-align: center;
+
+}
+
+.mid p {
+    font-style: italic;
+    margin-left: 180px;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+.read h2 {
+    width: 122px;
+    margin-left: 725px;
+    margin-top: 23px;
+    padding: 2px;
+    color: rgb(0, 0, 0);
+    border: 2px solid;
+    border-radius: 10px;
+    box-shadow: 3px 2.5px;
+
+
+
+}
+
+.read h2:hover {
+    background-color: rgb(143, 104, 52);
+
+}
+
+.readd h2 {
+    width: 122px;
+    margin-left: 889px;
+    margin-top: -34px;
+    padding: 2px;
+    color: rgb(0, 0, 0);
+    border: 2px solid;
+    border-radius: 10px;
+    box-shadow: 3px 2.5px;
+
+}
+
+.readd h2:hover {
+    background-color: rgb(143, 104, 52);
+}
+
+.footer ol {
+    font-style: italic;
+
+}
+
+.footer ol li a {
+    text-decoration: none;
+
+}
+
+.readd .read {
+    margin-left: 200px;
+}
